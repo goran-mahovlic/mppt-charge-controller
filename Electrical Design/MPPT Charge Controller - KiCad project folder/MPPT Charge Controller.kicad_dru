@@ -23,12 +23,6 @@
 	(layer inner)
 	(condition "A.Type == 'track' && B.Type == A.Type"))
 
-# silkscreen (Kicad 7 only)
-(rule "Minimum Text"
-	(constraint text_thickness (min 0.15mm))
-	(constraint text_height (min 1mm))
-	(layer "?.Silkscreen"))
-
 (rule "Pad to Silkscreen"
 	(constraint silk_clearance (min 0.15mm))
 	(layer outer)
