@@ -11,457 +11,6 @@
 		(comment 2 "Adapted for 3.5V output voltage")
 	)
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Socket"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Socket"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Socket_1_1"
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2390,6 +1939,150 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start 1.524 0.254)
+					(mid 0 0.762)
+					(end -1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_Module:Adafruit_Feather_HUZZAH32_ESP32"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3346,6 +3039,448 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MegaCastle:MegaCastle2x23-Module-I30.0x53.6-M80000307FFFC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MegaCastle:MegaCastle2x23-Module-I30.0x53.6-M80000307FFFC"
+				(at 0 -35.56 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MegaCastle2x23-Module-I30.0x53.6-M80000307FFFC_0_1"
+				(rectangle
+					(start -6.35 30.48)
+					(end 7.62 -30.48)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.35 25.4)
+					(end 4.62 -25.4)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MegaCastle2x23-Module-I30.0x53.6-M80000307FFFC_1_1"
+				(text "REAR ZONE"
+					(at 0.5 0 900)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -6.35 27.94 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -6.35 -27.94 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 27.94 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 12.7 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 10.16 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -10.16 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -12.7 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -15.24 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -17.78 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -20.32 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -22.86 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -25.4 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -27.94 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4742,18 +4877,6 @@
 		(uuid "2dc86374-adfc-4445-8d7f-6c808c28efd9")
 	)
 	(junction
-		(at 209.55 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e081d06-b420-4f0d-9025-b529b14f6001")
-	)
-	(junction
-		(at 214.63 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33b89948-e6f1-41c2-81c1-6610dcdc254c")
-	)
-	(junction
 		(at 101.6 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4880,12 +5003,6 @@
 		(uuid "a29c6ac1-3d8c-4c53-b24f-20b436beda46")
 	)
 	(junction
-		(at 57.15 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4be88f4-7f91-4bce-9724-d0aaa6d3d9cc")
-	)
-	(junction
 		(at 184.15 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4976,10 +5093,6 @@
 		(uuid "fae77f36-9577-42a1-b814-1fe82815a58b")
 	)
 	(no_connect
-		(at 222.25 33.02)
-		(uuid "0f44208b-0513-490e-a23b-081729be32a6")
-	)
-	(no_connect
 		(at 114.3 161.29)
 		(uuid "14bdad13-c34b-4661-800e-675c82797775")
 	)
@@ -4996,14 +5109,6 @@
 		(uuid "2130a69d-593c-46b2-9234-17972f507b15")
 	)
 	(no_connect
-		(at 88.9 168.91)
-		(uuid "29a64c6d-fbf5-4dd6-9ba8-2f9b20d73bb6")
-	)
-	(no_connect
-		(at 214.63 38.1)
-		(uuid "49f1cf36-28cb-4de4-ab53-2a45e5b7712f")
-	)
-	(no_connect
 		(at 88.9 161.29)
 		(uuid "73046d23-d6c3-4e4b-8198-45ab85adc826")
 	)
@@ -5014,10 +5119,6 @@
 	(no_connect
 		(at 88.9 163.83)
 		(uuid "7a07c66b-4bb5-4e31-ae5e-2daa5191d98d")
-	)
-	(no_connect
-		(at 212.09 26.67)
-		(uuid "90898302-4000-4084-a47b-3cea77789fff")
 	)
 	(no_connect
 		(at 88.9 151.13)
@@ -5048,8 +5149,8 @@
 		(uuid "d84dc319-f36c-46bc-9295-9f3429b29101")
 	)
 	(no_connect
-		(at 88.9 171.45)
-		(uuid "fd6c6364-cc91-4973-aa25-51f901f2e724")
+		(at 88.9 146.05)
+		(uuid "e1d364e6-e4af-432e-a14d-a285a688f2e4")
 	)
 	(wire
 		(pts
@@ -5090,26 +5191,6 @@
 			(type default)
 		)
 		(uuid "02dbf333-bbf0-4342-b297-24f37660d350")
-	)
-	(wire
-		(pts
-			(xy 257.81 35.56) (xy 270.51 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "053b5bbe-1b20-4ea8-96f0-cf8032e35940")
-	)
-	(wire
-		(pts
-			(xy 270.51 67.31) (xy 270.51 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05bafaf8-53c5-40da-9aff-9cc262cc53e2")
 	)
 	(wire
 		(pts
@@ -5193,26 +5274,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 113.03) (xy 49.53 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b4e52a6-1184-474d-abbc-4aa79bd3f5bf")
-	)
-	(wire
-		(pts
-			(xy 74.93 146.05) (xy 88.9 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cfeb9cc-e0f2-4207-8319-b40b197b7cb3")
-	)
-	(wire
-		(pts
 			(xy 59.69 45.72) (xy 69.85 45.72)
 		)
 		(stroke
@@ -5253,16 +5314,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 50.8) (xy 270.51 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "104858f9-b9a6-4d44-b7e4-b5aee5c7bd1c")
-	)
-	(wire
-		(pts
 			(xy 86.36 78.74) (xy 88.9 78.74)
 		)
 		(stroke
@@ -5290,16 +5341,6 @@
 			(type default)
 		)
 		(uuid "1508acbd-8433-44f3-8f77-e139657574b1")
-	)
-	(wire
-		(pts
-			(xy 222.25 55.88) (xy 240.03 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1598fca1-067a-4172-8afd-48478422f558")
 	)
 	(wire
 		(pts
@@ -5353,7 +5394,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 71.12) (xy 209.55 71.12)
+			(xy 194.31 71.12) (xy 215.9 71.12)
 		)
 		(stroke
 			(width 0)
@@ -5403,6 +5444,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 31.75) (xy 101.6 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20200f6a-0391-443b-a210-8037c58ae89a")
+	)
+	(wire
+		(pts
 			(xy 107.95 110.49) (xy 107.95 111.76)
 		)
 		(stroke
@@ -5440,16 +5491,6 @@
 			(type default)
 		)
 		(uuid "224df450-08a1-471e-9c30-7be12cde7d0b")
-	)
-	(wire
-		(pts
-			(xy 257.81 114.3) (xy 270.51 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2274ee59-5cd0-4d2b-9751-81c10f0cbe3c")
 	)
 	(wire
 		(pts
@@ -5563,26 +5604,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 73.66) (xy 214.63 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e95bff2-d2d9-4dce-aac3-f0f4c3c5d403")
-	)
-	(wire
-		(pts
-			(xy 209.55 71.12) (xy 209.55 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ef904b5-f7e9-4cff-a676-1d3528c48fed")
-	)
-	(wire
-		(pts
 			(xy 35.56 34.29) (xy 31.75 34.29)
 		)
 		(stroke
@@ -5660,16 +5681,6 @@
 			(type default)
 		)
 		(uuid "39bb3819-857c-4bca-a72e-39c24647dd56")
-	)
-	(wire
-		(pts
-			(xy 257.81 27.94) (xy 270.51 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3adfe0fd-52c9-493f-8aed-ec491fce0274")
 	)
 	(wire
 		(pts
@@ -5763,16 +5774,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 26.67) (xy 214.63 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "487dbc01-268d-47f5-9408-8fd603e59e04")
-	)
-	(wire
-		(pts
 			(xy 74.93 176.53) (xy 88.9 176.53)
 		)
 		(stroke
@@ -5780,16 +5781,6 @@
 			(type default)
 		)
 		(uuid "49d7d754-7056-40b1-bea5-96174150e542")
-	)
-	(wire
-		(pts
-			(xy 257.81 99.06) (xy 270.51 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a15be9d-080b-4733-af1e-b5de89f9167f")
 	)
 	(wire
 		(pts
@@ -5853,26 +5844,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 48.26) (xy 34.29 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f168e3d-8513-40e4-87be-5e8cdc6f1ae0")
-	)
-	(wire
-		(pts
-			(xy 257.81 83.82) (xy 270.51 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f908725-c302-4a66-a023-ddfd71687793")
-	)
-	(wire
-		(pts
 			(xy 27.94 34.29) (xy 27.94 33.02)
 		)
 		(stroke
@@ -5933,6 +5904,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 72.39) (xy 265.43 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b17eb07-d845-49dc-8876-4aaaf88210d4")
+	)
+	(wire
+		(pts
 			(xy 31.75 19.05) (xy 45.72 19.05)
 		)
 		(stroke
@@ -5983,16 +5964,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 50.8) (xy 212.09 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6356888b-4524-459f-8c32-95bea8c1dae0")
-	)
-	(wire
-		(pts
 			(xy 167.64 93.98) (xy 171.45 93.98)
 		)
 		(stroke
@@ -6000,16 +5971,6 @@
 			(type default)
 		)
 		(uuid "639ecf44-3513-4df6-8818-92703b532bf7")
-	)
-	(wire
-		(pts
-			(xy 257.81 58.42) (xy 270.51 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6456805d-4151-4640-acc3-76020b4aa8d5")
 	)
 	(wire
 		(pts
@@ -6083,16 +6044,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 106.68) (xy 270.51 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a9dd6e3-ffc4-4f14-a632-c7ec7f5e72a4")
-	)
-	(wire
-		(pts
 			(xy 69.85 45.72) (xy 69.85 58.42)
 		)
 		(stroke
@@ -6120,16 +6071,6 @@
 			(type default)
 		)
 		(uuid "6d3f9502-352f-4f37-9d4d-4fd4da5f8d49")
-	)
-	(wire
-		(pts
-			(xy 194.31 71.12) (xy 209.55 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e0ec965-c4b5-429f-9aba-d3da3af6ac27")
 	)
 	(wire
 		(pts
@@ -6193,16 +6134,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 120.65) (xy 57.15 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "752ee35a-14b0-49d5-aeed-b4789722c928")
-	)
-	(wire
-		(pts
 			(xy 168.91 71.12) (xy 168.91 74.93)
 		)
 		(stroke
@@ -6213,16 +6144,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 123.19) (xy 270.51 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7860dc91-0041-47bf-8d1c-1fc425641892")
-	)
-	(wire
-		(pts
 			(xy 184.15 140.97) (xy 185.42 140.97)
 		)
 		(stroke
@@ -6230,16 +6151,6 @@
 			(type default)
 		)
 		(uuid "7c0020d1-71ed-41b5-803c-e3517a7db0d5")
-	)
-	(wire
-		(pts
-			(xy 270.51 135.89) (xy 270.51 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cd13022-9c45-4c06-99e3-af3f8290a60a")
 	)
 	(wire
 		(pts
@@ -6363,16 +6274,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 76.2) (xy 270.51 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "884892b0-57b5-4f33-b123-63b4ac0be66d")
-	)
-	(wire
-		(pts
 			(xy 171.45 96.52) (xy 143.51 96.52)
 		)
 		(stroke
@@ -6470,6 +6371,16 @@
 			(type default)
 		)
 		(uuid "921ea764-d548-442f-a5e1-c36b2544dc8f")
+	)
+	(wire
+		(pts
+			(xy 93.98 39.37) (xy 101.6 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926d2d2d-fa5b-4090-8ca0-a07ccdb66a52")
 	)
 	(wire
 		(pts
@@ -6673,16 +6584,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 73.66) (xy 214.63 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2423665-925b-46da-acf6-a65b5d5f02b7")
-	)
-	(wire
-		(pts
 			(xy 77.47 45.72) (xy 133.35 45.72)
 		)
 		(stroke
@@ -6703,16 +6604,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 67.31) (xy 270.51 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a83c2319-7af8-487e-877d-4e306f99663c")
-	)
-	(wire
-		(pts
 			(xy 119.38 68.58) (xy 119.38 69.85)
 		)
 		(stroke
@@ -6720,16 +6611,6 @@
 			(type default)
 		)
 		(uuid "a8782a54-16fe-4841-be8d-1f4cf6e730fe")
-	)
-	(wire
-		(pts
-			(xy 257.81 91.44) (xy 270.51 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa3a845c-a895-49a8-8365-b0fb151ddb62")
 	)
 	(wire
 		(pts
@@ -6883,16 +6764,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 27.94) (xy 212.09 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb2befe4-486d-4828-8890-acb987acd363")
-	)
-	(wire
-		(pts
 			(xy 114.3 158.75) (xy 134.62 158.75)
 		)
 		(stroke
@@ -6963,16 +6834,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 44.45) (xy 215.9 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c36ed53f-37d6-41b4-8d80-e83da35843ba")
-	)
-	(wire
-		(pts
 			(xy 175.26 46.99) (xy 175.26 45.72)
 		)
 		(stroke
@@ -7010,16 +6871,6 @@
 			(type default)
 		)
 		(uuid "c6798b1f-1ef1-42ac-b683-d1c4962bb2f9")
-	)
-	(wire
-		(pts
-			(xy 214.63 26.67) (xy 214.63 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6d098b2-ed2c-4f98-9c05-5345e065890d")
 	)
 	(wire
 		(pts
@@ -7063,16 +6914,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 43.18) (xy 270.51 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdc82368-1613-4879-b238-71fe3e43f441")
-	)
-	(wire
-		(pts
 			(xy 205.74 143.51) (xy 214.63 143.51)
 		)
 		(stroke
@@ -7083,16 +6924,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 20.32) (xy 270.51 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce17602b-3f26-4d98-8824-eef3e130502d")
-	)
-	(wire
-		(pts
 			(xy 80.01 64.77) (xy 87.63 64.77)
 		)
 		(stroke
@@ -7100,16 +6931,6 @@
 			(type default)
 		)
 		(uuid "ce734169-b212-4aa0-88ef-927a6e63b94a")
-	)
-	(wire
-		(pts
-			(xy 212.09 46.99) (xy 214.63 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfc52069-2420-4ca2-a224-49743df7870d")
 	)
 	(wire
 		(pts
@@ -7163,13 +6984,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 118.11) (xy 49.53 120.65)
+			(xy 232.41 85.09) (xy 236.22 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d7797182-4ce7-42fe-83ae-24314faeb229")
+		(uuid "d64921b7-8979-464c-b170-9534d789a190")
 	)
 	(wire
 		(pts
@@ -7190,16 +7011,6 @@
 			(type default)
 		)
 		(uuid "dac9c4b2-321d-4287-b8fb-cff1fa3f6077")
-	)
-	(wire
-		(pts
-			(xy 270.51 135.89) (xy 257.81 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbac1aab-a5ce-4baf-ba8e-c4d9f299c858")
 	)
 	(wire
 		(pts
@@ -7240,16 +7051,6 @@
 			(type default)
 		)
 		(uuid "e137ab08-1ac9-4660-a7f3-d092064db41c")
-	)
-	(wire
-		(pts
-			(xy 34.29 48.26) (xy 33.02 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3355e2d-41e9-4ed7-a705-03e4680cecd7")
 	)
 	(wire
 		(pts
@@ -7313,16 +7114,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 46.99) (xy 214.63 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef04d37f-d76b-44f5-89c8-b3d3937603ad")
-	)
-	(wire
-		(pts
 			(xy 50.8 44.45) (xy 50.8 45.72)
 		)
 		(stroke
@@ -7350,16 +7141,6 @@
 			(type default)
 		)
 		(uuid "f35229d0-dbf4-44c8-bf15-72e3b7db5a34")
-	)
-	(wire
-		(pts
-			(xy 215.9 46.99) (xy 214.63 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f39bb3a8-56dd-4eda-9d70-5a267f673997")
 	)
 	(wire
 		(pts
@@ -7423,16 +7204,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 60.96) (xy 214.63 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f834f590-0426-4ba1-befb-01ab206eca0c")
-	)
-	(wire
-		(pts
 			(xy 67.31 99.06) (xy 69.85 99.06)
 		)
 		(stroke
@@ -7450,16 +7221,6 @@
 			(type default)
 		)
 		(uuid "f92eb95b-f601-49c5-a8ff-f344a35c4335")
-	)
-	(wire
-		(pts
-			(xy 57.15 113.03) (xy 49.53 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faa3c0ef-230a-4e6b-9b8b-8911139ec4dd")
 	)
 	(wire
 		(pts
@@ -7551,54 +7312,45 @@
 		)
 		(uuid "ffd363fb-940f-4ba5-8195-1b00558d2632")
 	)
-	(text_box "NTC\n10k Thermistor"
+	(text "ACS712 Actually requires VCC = 5V, not 3.3V\naccording to datasheet?"
 		(exclude_from_sim no)
-		(at 38.1 107.95 90)
-		(size 13.97 16.51)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify top)
-		)
-		(uuid "1bf7a5bd-eb3f-4053-8f1a-510f5af5b2d6")
-	)
-	(text "5V-28V \nSolar input"
-		(exclude_from_sim no)
-		(at 23.876 46.99 90)
+		(at 191.516 37.338 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "36bd76ac-5720-4b22-b883-ef0bf0949161")
+		(uuid "04f48095-6d76-41b4-b194-2717f59eb03a")
 	)
-	(text "12V Load"
+	(text "ACS712 Actually requires VCC = 5V, not 3.3V\naccording to datasheet?\n\nPeople on the internet indicate that they seem\nto work fairly fine on VCC=3.3V, though."
 		(exclude_from_sim no)
-		(at 228.092 46.228 0)
+		(at 74.422 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "7204569d-05ce-4b60-b978-8e4c82dbd867")
+		(uuid "467bbb79-7eb7-4142-be2a-f879212650c4")
 	)
-	(text "12V Battery"
+	(text "3.6V LiFePO4 Cell"
 		(exclude_from_sim no)
-		(at 228.854 73.152 0)
+		(at 222.25 68.072 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "794e0b9f-6733-48f1-b9b2-130accce2e05")
+	)
+	(text "OUTPUT FROM\nCHARGE SOURCE"
+		(exclude_from_sim no)
+		(at 275.59 70.612 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c2014ee-d534-4457-a4c8-46d0523e829b")
 	)
 	(text "Charge voltage to battery = 2.1V x ( 1 + R2/R1)\n\nWe want 3.5V = 2.1V x ( 1 + R2/R1)\n\nThus 1+ R2/R1 = 3.5V / 2.5V = 1.4.\n\nIf R1=100K, then R2=140K"
 		(exclude_from_sim no)
@@ -7611,6 +7363,16 @@
 		)
 		(uuid "a5e5ac15-ae80-4207-88ba-ed2d8047f8bc")
 	)
+	(text "RSR1 sets max charge current:\nI_MAX = 40mOhms / RSR1\n\n20mOhms thus limits to 2A\n\nACS712 on VCC=5V will have output on VIOUT to 3.3V ADC\nbelow 3.3V upto about 4A, or 7A if the 20A version of the ACS712 is used.\n\nThus we can use 10mOhms to allow upto 4A charging.\nWith a 10Ah LiFePO4 is his 0.4C, which is below the\nsave limit of 1.0C"
+		(exclude_from_sim no)
+		(at 157.48 23.114 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "adc572ec-6dad-4ef2-bd5f-4835fa50017e")
+	)
 	(text "connected to GND\nthrough board vias"
 		(exclude_from_sim no)
 		(at 122.174 107.95 0)
@@ -7620,6 +7382,16 @@
 			)
 		)
 		(uuid "c675919a-52a0-4981-9eb8-2fa487fab614")
+	)
+	(text "Develop 3.3V to power the ESP32 from the input side"
+		(exclude_from_sim no)
+		(at 209.296 156.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cd98ff01-014c-49da-bb5d-9600f0d7dd99")
 	)
 	(label "STAT1"
 		(at 74.93 135.89 0)
@@ -7632,7 +7404,7 @@
 		(uuid "006a7f8c-fa62-4e9e-8eb1-b2b60f81b5f9")
 	)
 	(label "BTST"
-		(at 257.81 83.82 0)
+		(at 250.19 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7642,7 +7414,7 @@
 		(uuid "026a25a5-4fb7-48c3-9b9e-261370240ef5")
 	)
 	(label "TS"
-		(at 257.81 43.18 0)
+		(at 250.19 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7652,7 +7424,7 @@
 		(uuid "03b1af81-97b4-439d-ac39-bb3b33bc3cd0")
 	)
 	(label "VCC"
-		(at 257.81 20.32 0)
+		(at 250.19 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7721,16 +7493,6 @@
 		)
 		(uuid "1ebdc4d8-6c29-4ad3-acbe-4ef5fbec6894")
 	)
-	(label "Load Enable"
-		(at 240.03 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2001707b-0abb-48f0-8330-0c2c87673aef")
-	)
 	(label "~{Charge EN}"
 		(at 52.07 78.74 0)
 		(effects
@@ -7742,7 +7504,7 @@
 		(uuid "2180afec-23d9-4375-976d-7f8ef87f0418")
 	)
 	(label "LODRV"
-		(at 257.81 99.06 0)
+		(at 250.19 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7752,7 +7514,7 @@
 		(uuid "247378ea-05bc-4f59-9691-8946b8d90264")
 	)
 	(label "STAT2"
-		(at 257.81 67.31 0)
+		(at 250.19 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7761,18 +7523,8 @@
 		)
 		(uuid "2496d9b2-3186-4348-93b2-286025ef87ab")
 	)
-	(label "Load Enable"
-		(at 74.93 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "261d7aa8-1c17-4fba-a9d8-cf0cf1ff6354")
-	)
 	(label "HIDRV"
-		(at 257.81 91.44 0)
+		(at 250.19 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7832,7 +7584,7 @@
 		(uuid "4342f646-b3de-47c1-96b4-b1fbd491a58a")
 	)
 	(label "RGEN"
-		(at 257.81 76.2 0)
+		(at 250.19 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7872,7 +7624,7 @@
 		(uuid "732324fd-9143-4755-adc4-a95dadd3519d")
 	)
 	(label "VFB"
-		(at 257.81 50.8 0)
+		(at 250.19 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7952,7 +7704,7 @@
 		(uuid "9294d5eb-41ac-4cf6-8d43-169ebbc5f4dc")
 	)
 	(label "Input"
-		(at 257.81 135.89 0)
+		(at 250.19 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7992,7 +7744,7 @@
 		(uuid "a58780cf-1bd7-477f-9075-2c2541cb6f74")
 	)
 	(label "~{Charge EN}"
-		(at 257.81 114.3 0)
+		(at 250.19 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8032,7 +7784,7 @@
 		(uuid "bc56a90d-e81a-4ec0-98b2-10b7d0453ed0")
 	)
 	(label "VREF"
-		(at 257.81 27.94 0)
+		(at 250.19 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8042,7 +7794,7 @@
 		(uuid "c518ac50-fb9b-46e9-bac3-c4b4857644e5")
 	)
 	(label "MPPSET"
-		(at 257.81 35.56 0)
+		(at 250.19 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8052,7 +7804,7 @@
 		(uuid "c5339413-d682-4723-a365-2f9143bdf0a8")
 	)
 	(label "PH"
-		(at 257.81 106.68 0)
+		(at 250.19 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8102,7 +7854,7 @@
 		(uuid "f2e787e4-6ee7-4660-8222-7f28d8cdb20f")
 	)
 	(label "STAT1"
-		(at 257.81 58.42 0)
+		(at 250.19 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8130,6 +7882,270 @@
 			(justify left bottom)
 		)
 		(uuid "fb9eb273-fc90-4204-a6e0-ff6c6a5f798a")
+	)
+	(global_label "UART_TX"
+		(shape input)
+		(at 250.19 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00b0aac7-fe1c-48df-9bc9-dd549fbda10f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.9766 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_ACS712_2"
+		(shape input)
+		(at 171.45 58.42 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "115df2c3-e17e-4a23-9b08-a4675f222f5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.45 41.4649 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT_OUT"
+		(shape input)
+		(at 236.22 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35745462-21fa-4316-9c45-8d4ac1bb0f78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.2238 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_ACS712"
+		(shape input)
+		(at 27.94 33.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b2fec87-5c3c-466a-ba41-4283d31aa3c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.162 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_ACS712_2"
+		(shape input)
+		(at 83.82 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58a55a9b-5ab2-417c-aa82-dcd69e9217bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.8649 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_GND"
+		(shape input)
+		(at 57.15 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68ea3782-3992-4eb7-8f1b-52dbb119c723")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.3353 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBAT_OUT"
+		(shape input)
+		(at 215.9 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8510c722-c73f-4d3f-abb4-0987b7a4224c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.8962 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 250.19 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1e69737-7ee8-4168-b63b-24733ce5b6b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.279 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_RX"
+		(shape input)
+		(at 88.9 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ddd7d1d7-2ec8-4c78-92da-3e9c41d5cc6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.811 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_ACS712"
+		(shape input)
+		(at 83.82 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e90a06a3-0d25-41ab-9297-a4a845cbd4de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.042 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_TX"
+		(shape input)
+		(at 88.9 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f62c6e2e-6b62-421f-b1c3-712328e668db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.1134 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWR_GND"
+		(shape input)
+		(at 250.19 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb18d76b-c7c1-4ccc-800c-2da72d17c8d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.0047 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -8482,206 +8498,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 27.94 48.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "264ffeb6-d824-428f-9899-ea9eb5b40b2f")
-		(property "Reference" "J1"
-			(at 27.94 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 28.575 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 27.94 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 27.94 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a3254c2c-9f12-4d5e-87f2-d7627229838d")
-		)
-		(pin "1"
-			(uuid "16189567-79e9-4c62-b2c7-873be8613d56")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 214.63 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2907223f-7a87-497f-8338-8bb58c320247")
-		(property "Reference" "#PWR025"
-			(at 214.63 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 214.63 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 214.63 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "285b109f-ba29-4e40-b69c-978d06432ddf")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ac6337a-7050-4541-b46b-1276ee120a8a")
-		(property "Reference" "TP12"
-			(at 273.05 102.1079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 273.05 104.6479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 275.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 270.51 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2149336-733a-4da6-b66c-cda938dda781")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 133.35 69.85 0)
 		(unit 1)
@@ -8967,73 +8783,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "393d2aef-8d0f-40c2-a1d7-320d2882d0fe")
-		(property "Reference" "TP5"
-			(at 273.05 46.2279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 273.05 48.7679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 275.59 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 270.51 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b59013fc-3ab6-453b-9bc6-20d14dba9f90")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MCU_Module:Adafruit_Feather_HUZZAH32_ESP32")
 		(at 101.6 156.21 0)
 		(unit 1)
@@ -9252,73 +9001,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b2d0dee-01c0-4735-b92d-c8d9c1732c0d")
-		(property "Reference" "TP6"
-			(at 273.05 53.8479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 273.05 56.3879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 275.59 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 270.51 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af22e133-c8c6-44ad-8866-6441d1e97246")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 184.15 95.25 0)
 		(unit 1)
@@ -9528,6 +9210,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 265.43 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e3ff67c-1445-42fc-8c98-33da859eeda3")
+		(property "Reference" "#PWR018"
+			(at 265.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 265.43 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 265.43 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44e0754c-56ab-45f3-b50e-99c52c34cd33")
+		)
+		(instances
+			(project "MPPT Charge Controller"
+				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 101.6 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4094fb30-d432-4f5e-9659-3493b9f0fd60")
+		(property "Reference" "#PWR04"
+			(at 101.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 101.6 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 101.6 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a4c7e5d-81a3-4ae5-aa02-3be48e51769b")
+		)
+		(instances
+			(project "MPPT Charge Controller"
+				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Current:ACS712xLCTR-05B")
 		(at 189.23 59.69 90)
 		(unit 1)
@@ -9609,6 +9423,72 @@
 			(project "MPPT Charge Controller"
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 101.6 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "444bc77f-826d-42dc-bace-e5eda507ef0e")
+		(property "Reference" "#PWR016"
+			(at 101.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 101.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cb56e6d-53b9-40c4-b580-d1ceb0c57d51")
+		)
+		(instances
+			(project "MPPT Charge Controller"
+				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9891,140 +9771,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ebdb2a6-0392-4616-9131-96f80beb8ef5")
-		(property "Reference" "TP4"
-			(at 273.05 38.6079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 273.05 41.1479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 275.59 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 270.51 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a43f635f-6989-4e38-bbdf-8fc64f40eff3")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f415d66-557c-4f6d-bed9-0d9e65254bd3")
-		(property "Reference" "TP1"
-			(at 273.05 15.7479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 273.05 18.2879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 275.59 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 270.51 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a851bd40-4947-436a-abb5-db611b619429")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 64.77 99.06 90)
 		(unit 1)
@@ -10158,6 +9904,71 @@
 			(project "MPPT Charge Controller"
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 232.41 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54c14abb-da6d-4f81-9e9b-e39c52eaec81")
+		(property "Reference" "#PWR07"
+			(at 232.41 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 232.41 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6228a0d7-72c6-44cf-84c3-762ed00b99b2")
+		)
+		(instances
+			(project "MPPT Charge Controller"
+				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10369,229 +10180,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 44.45 118.11 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d48edbe-26e7-4fd3-b04c-0cf8ddcda5da")
-		(property "Reference" "J4"
-			(at 45.085 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 44.45 128.016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 44.45 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 44.45 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a292220f-9c56-451a-b327-050dfe45d6b6")
-		)
-		(pin "2"
-			(uuid "9d492199-a805-45e5-b03f-9741d96d9390")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
-		(at 217.17 55.88 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "606375b1-a437-44ce-9983-d01128d27e33")
-		(property "Reference" "Q2"
-			(at 221.488 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NMOS_S1G1S2G2D2D2D1D1"
-			(at 210.82 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Dual"
-			(at 212.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 212.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NMOS transistor, 8 pin package"
-			(at 217.17 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "271e5ba4-dd4f-4c21-b12c-e7733b344ad2")
-		)
-		(pin "1"
-			(uuid "99726dbc-8311-4073-bee8-08c8f74d8f4c")
-		)
-		(pin "3"
-			(uuid "64924573-b453-4b44-9edc-9d73d8c419ed")
-		)
-		(pin "4"
-			(uuid "3c3b2c73-b603-4987-9772-06ce9ff5bf40")
-		)
-		(pin "6"
-			(uuid "f8a2b815-393d-4e69-aeda-dd1678c64a5b")
-		)
-		(pin "7"
-			(uuid "66f21820-9891-4167-bc10-f6749a4cfb58")
-		)
-		(pin "8"
-			(uuid "71fc850f-62a0-4b12-ac3b-082234ed2b9f")
-		)
-		(pin "2"
-			(uuid "b705a1d4-9bf4-4561-8a52-5ac7f78c75e9")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "607294ab-7f4f-4376-b184-212cd9e56159")
-		(property "Reference" "TP11"
-			(at 273.05 94.4879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 273.05 97.0279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 275.59 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 270.51 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6507beef-9fc1-42c1-939c-65adc3d6c482")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small_Filled")
 		(at 72.39 99.06 180)
 		(unit 1)
@@ -10661,35 +10249,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 76.2 0)
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 88.9 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "662a9c3c-32cd-4fd2-925f-d346e170537d")
-		(property "Reference" "TP8"
-			(at 273.05 71.6279 0)
+		(uuid "6484ed1b-6faa-45fd-8f5d-4ed166f756d3")
+		(property "Reference" "JP1"
+			(at 88.9 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 273.05 74.1679 0)
+		(property "Value" "Jumper_2_Bridged"
+			(at 88.9 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 275.59 76.2 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 88.9 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10698,7 +10284,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 76.2 0)
+			(at 88.9 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10706,22 +10292,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 270.51 76.2 0)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 88.9 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "50ebd517-af14-4825-bb79-c22edc5c5d1b")
 		)
 		(pin "1"
-			(uuid "ce1d3dfd-faa0-4f67-ad85-ea68b66cca17")
+			(uuid "d20061d1-9f88-4b3c-b9af-7dd56280ddcc")
 		)
 		(instances
-			(project "MPPT Charge Controller"
+			(project ""
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "TP8")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -10931,205 +10520,6 @@
 			(project "MPPT Charge Controller"
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 34.29 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ceef60c-8178-4ecc-ad3d-e3fc68a7e4bb")
-		(property "Reference" "#PWR07"
-			(at 34.29 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.29 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 34.29 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f87dd35d-cdba-428a-9f36-cdbb7aef9eb4")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6de9644c-497e-4ba4-ae6f-f77b42a78d83")
-		(property "Reference" "TP3"
-			(at 273.05 30.9879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 273.05 33.5279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 275.59 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 270.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2bcb2676-24eb-4790-a1c0-281b2408ccba")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "743a9674-06e4-42d0-9513-8f5f68015a1a")
-		(property "Reference" "TP10"
-			(at 273.05 86.8679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 273.05 89.4079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 275.59 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 270.51 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d210e5c5-359a-4fa2-b392-5c9e45435b5a")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -11817,71 +11207,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 214.63 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c2e1b91-8a5b-41ca-844e-a24535194a09")
-		(property "Reference" "#PWR016"
-			(at 214.63 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 214.63 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 214.63 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f74ef68b-c1d6-45ef-8f4e-29e57dc7fe3f")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L_Iron")
 		(at 154.94 71.12 90)
 		(unit 1)
@@ -12132,206 +11457,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 27.94 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98a1b8dd-8c12-4458-83a7-74460800c44d")
-		(property "Reference" "#PWR018"
-			(at 27.94 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 27.94 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 27.94 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b1e15ef4-8888-405d-ab95-c79e534b7b25")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99054cbf-2249-49ff-9412-c59f66492947")
-		(property "Reference" "TP2"
-			(at 273.05 23.3679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 273.05 25.9079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 275.59 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 270.51 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a1cbbb9-d9b7-4a19-8da7-e954a5a22ac9")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ad571fa-9b54-4e4e-921f-6ad321a15be9")
-		(property "Reference" "TP15"
-			(at 273.05 130.0479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 273.05 132.5879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 275.59 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 270.51 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "261ecc73-a9b7-428b-8870-18ffe94ca646")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 101.6 191.77 0)
 		(unit 1)
@@ -12466,72 +11591,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 171.45 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a92cd56e-d38d-49e5-b109-f5d52e42daf0")
-		(property "Reference" "#PWR04"
-			(at 171.45 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 171.45 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 171.45 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a13d20b-086e-4f48-b07f-7d9c6ec39e36")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 200.66 60.96 0)
 		(unit 1)
@@ -12597,34 +11656,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 220.98 46.99 0)
-		(mirror x)
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 88.9 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a9c6f67e-1d61-4248-be83-97207e0c4c27")
-		(property "Reference" "J3"
-			(at 220.98 40.64 0)
+		(fields_autoplaced yes)
+		(uuid "a9528db3-930b-4dd6-9915-ad6af10a5e9d")
+		(property "Reference" "JP2"
+			(at 88.9 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 220.345 41.91 0)
+		(property "Value" "Jumper_2_Bridged"
+			(at 88.9 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 220.98 46.99 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 88.9 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12633,7 +11691,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 46.99 0)
+			(at 88.9 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12641,8 +11699,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 220.98 46.99 0)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 88.9 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12651,15 +11709,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b1348fd7-2a0b-45a0-bcd5-a32624755c15")
+			(uuid "11758800-c116-4b9d-8d52-9a7c5fd76bc4")
 		)
 		(pin "1"
-			(uuid "a377fe00-af4d-4ca3-bcf2-05e7b03cdf60")
+			(uuid "55299445-a16c-462d-bea8-d7126e7f371d")
 		)
 		(instances
 			(project "MPPT Charge Controller"
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "J3")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -12861,73 +11919,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af0dbd73-be70-4863-bfcd-ea27372f5d82")
-		(property "Reference" "TP14"
-			(at 273.05 117.3479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 273.05 119.8879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded"
-			(at 275.59 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 270.51 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b69b63a-488a-4062-8ae5-d3c0ff2582e3")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "TP14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:Earth")
 		(at 149.86 88.9 0)
 		(unit 1)
@@ -13080,7 +12071,7 @@
 				)
 			)
 		)
-		(property "Value" "0.02"
+		(property "Value" "0.01"
 			(at 165.1 67.31 90)
 			(effects
 				(font
@@ -13197,73 +12188,6 @@
 			(project "MPPT Charge Controller"
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be8ceae1-8e70-460c-94a5-21140da0e1c7")
-		(property "Reference" "TP9"
-			(at 273.05 79.2479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 273.05 81.7879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 275.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 270.51 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "504b415b-6e5e-428d-9da7-2eeeb1e7a0c8")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -13527,71 +12451,6 @@
 			(project "MPPT Charge Controller"
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 270.51 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cef2fa0f-3fca-4bce-913f-6013b7245fd0")
-		(property "Reference" "#PWR026"
-			(at 270.51 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 270.51 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 270.51 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "809648bb-46f7-49ef-a281-a63811146ffa")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14489,35 +13348,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 114.3 0)
+		(lib_id "MegaCastle:MegaCastle2x23-Module-I30.0x53.6-M80000307FFFC")
+		(at 242.57 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e4760d41-544b-477e-8328-5cff30267c6d")
-		(property "Reference" "TP13"
-			(at 273.05 109.7279 0)
+		(uuid "e38da7c3-df27-4a03-be5b-85d0f1dc2b80")
+		(property "Reference" "M2"
+			(at 243.205 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 273.05 112.2679 0)
+		(property "Value" "~"
+			(at 243.205 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 275.59 114.3 0)
+		(property "Footprint" "MegaCastle:MegaCastle2x23-Module-I30.0x53.6-M80000307FFFC"
+			(at 242.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14525,8 +13382,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 275.59 114.3 0)
+		(property "Datasheet" ""
+			(at 242.57 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14534,22 +13391,79 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 270.51 114.3 0)
+		(property "Description" ""
+			(at 242.57 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "46"
+			(uuid "7ad6298d-af99-483e-91eb-9a347d77e587")
+		)
+		(pin "32"
+			(uuid "1520e666-43bf-4db8-a568-35bba3416b52")
+		)
+		(pin "33"
+			(uuid "e86dbbd3-8dff-43d6-aaed-79a1a322ff0e")
+		)
+		(pin "39"
+			(uuid "e67ef329-3751-4f0a-8332-9f82745ed790")
+		)
+		(pin "45"
+			(uuid "536177ea-295e-4069-9110-3adcbb122ad2")
+		)
+		(pin "37"
+			(uuid "1f375192-39dc-4e58-ac6f-51653cc1de8d")
+		)
+		(pin "43"
+			(uuid "5c548eb8-723e-4ea8-9ae3-0a532a6baa1e")
+		)
+		(pin "40"
+			(uuid "eb4e36bd-ae02-4ce9-a931-47c248e5fb87")
+		)
+		(pin "38"
+			(uuid "8f42e65a-210d-408b-b03b-56de25647b80")
+		)
+		(pin "42"
+			(uuid "9332e6cb-dc94-4945-b04a-18ca9accd681")
+		)
+		(pin "44"
+			(uuid "b7040a6b-749b-4016-b1eb-9ee3bb5cbb07")
+		)
+		(pin "41"
+			(uuid "d3c982ff-c9df-408a-8e91-51e3dbfb1c47")
+		)
+		(pin "35"
+			(uuid "7d627d76-da38-441f-b237-56615024b0ef")
+		)
+		(pin "34"
+			(uuid "43cd218c-c30b-41de-b8c5-2480810b798b")
+		)
+		(pin "31"
+			(uuid "b138055b-f886-4e9f-b13b-497df211d15d")
+		)
+		(pin "24"
+			(uuid "7e566275-3030-45db-9eb4-950b76375619")
+		)
+		(pin "30"
+			(uuid "9d63900d-df86-47e3-91b2-cec715b84fed")
 		)
 		(pin "1"
-			(uuid "dc3cb0ba-3011-42b7-a9da-dfa928d79a1c")
+			(uuid "9ffb7cd2-bdc2-49ff-837b-8a66f4e1137c")
+		)
+		(pin "23"
+			(uuid "74cde0e5-ad7b-46b6-bc31-7cc00160954f")
+		)
+		(pin "36"
+			(uuid "e5e789cb-c8e9-402b-bd48-85d7208d951c")
 		)
 		(instances
-			(project "MPPT Charge Controller"
+			(project ""
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "TP13")
+					(reference "M2")
 					(unit 1)
 				)
 			)
@@ -14626,142 +13540,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 270.51 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eda3c2fb-9e38-4038-a563-64c11d6fe84f")
-		(property "Reference" "TP7"
-			(at 273.05 61.4679 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 273.05 64.0079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 275.59 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 270.51 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "634b42a8-6774-4d74-b0f4-53f7a906bf6d")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 220.98 73.66 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f29b5379-9c1a-4074-b25e-c5331a5011c3")
-		(property "Reference" "J2"
-			(at 220.98 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 220.345 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 220.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "93f8d1b2-3be1-48c5-89f2-fa511818d4d8")
-		)
-		(pin "1"
-			(uuid "93339f4b-567b-49f5-a297-ef24e59525a6")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 184.15 102.87 0)
 		(unit 1)
@@ -14827,95 +13605,6 @@
 				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
 					(reference "R1")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_Dual_NMOS_S1G1S2G2D2D2D1D1")
-		(at 217.17 33.02 0)
-		(mirror y)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f4b4428b-68c7-4800-b785-ff76815573a2")
-		(property "Reference" "Q2"
-			(at 221.488 37.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NMOS_S1G1S2G2D2D2D1D1"
-			(at 210.82 34.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:PowerPAK_SO-8_Dual"
-			(at 212.09 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 212.09 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NMOS transistor, 8 pin package"
-			(at 217.17 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "2ca58634-c224-49ec-946c-581b7fbd1180")
-		)
-		(pin "1"
-			(uuid "9fd80871-5816-4ad9-b774-bec8e0c9c160")
-		)
-		(pin "3"
-			(uuid "f0cc4555-fc71-458f-8ae0-76f25e70900d")
-		)
-		(pin "4"
-			(uuid "be74a44e-7f89-405a-8b9b-d92bf2db9f78")
-		)
-		(pin "6"
-			(uuid "bea902fe-aba4-4e9a-8c9f-c1604f20aa4b")
-		)
-		(pin "7"
-			(uuid "4787579c-de9c-4217-9489-8e0b561792ed")
-		)
-		(pin "8"
-			(uuid "0c7eb0f9-28a0-49aa-b653-e06365731c8a")
-		)
-		(pin "2"
-			(uuid "4a915dbf-1d6c-437a-9e14-9b9c674926c8")
-		)
-		(instances
-			(project "MPPT Charge Controller"
-				(path "/6fccb5b0-46ff-4014-9169-aa61e4064f3f"
-					(reference "Q2")
-					(unit 2)
 				)
 			)
 		)
