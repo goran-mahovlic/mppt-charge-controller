@@ -5,8 +5,8 @@
 	(uuid "6fccb5b0-46ff-4014-9169-aa61e4064f3f")
 	(paper "A4")
 	(title_block
-		(title "MPPT Charge Controller")
-		(rev "20250209")
+		(title "MEGAphone MPPT Charge Controller")
+		(rev "20250216")
 		(comment 1 "Adapted for MEGAphone module format")
 		(comment 2 "Adapted for 3.5V output voltage")
 	)
