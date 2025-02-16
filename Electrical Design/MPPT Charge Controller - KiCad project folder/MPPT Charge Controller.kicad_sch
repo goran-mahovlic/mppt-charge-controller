@@ -10817,7 +10817,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_Dual_NMOS_S1G1S2G2D2D2D1D1"
+		(property "Value" "SI7272DP"
 			(at 153.67 54.6099 0)
 			(effects
 				(font
@@ -11067,7 +11067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_Dual_NMOS_S1G1S2G2D2D2D1D1"
+		(property "Value" "SI7272DP"
 			(at 153.67 82.5499 0)
 			(effects
 				(font
