@@ -13373,7 +13373,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MegaCastle:MegaCastle2x23-Module-I30.0x53.6-M80000307FFFC"
+		(property "Footprint" "MegaCastle:MegaCastle2x23-Module-I30.0x53.6-M80000307FFFC-PANEL"
 			(at 242.57 92.71 0)
 			(effects
 				(font
