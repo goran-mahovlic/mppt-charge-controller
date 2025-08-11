@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "MPPT Charge Controller Symbol Library")(type "KiCad")(uri "${KIPRJMOD}/MPPT Charge Controller Symbol Library.kicad_sym")(options "")(descr ""))
   (lib (name "MegaCastle")(type "KiCad")(uri "/home/paul/Projects/mega65/mega65-modular-megaphone/MegaCastle.kicad_sym")(options "")(descr ""))
+  (lib (name "MPPT-Charge-Controller-Controller")(type "KiCad")(uri "${KIPRJMOD}/MPPT-Charge-Controller-Controller.kicad_sym")(options "")(descr ""))
 )
